@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', Roboto;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    height: 40px; /* Adjust based on your logo size */
+    margin-right: 10px;
+}
+
+header nav a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #7180ac;
+    font-weight: 700; /* For a bold effect similar to the Lora font */
+}
+
+header .logo-title {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-title span {
+    font-family: 'Lora', serif;
+    color: #7180ac;
+    font-weight: 700;
+    font-size: 1.5em; /* Adjust as needed */
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+
+.contact h2{
+    font-size: 40px;
+    color: #7180ac;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -100px;
+}
+
+.contact form{
+    width: 600px;
+    text-align: center;
+}
+
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field{
+    width: 48.5%;
+}
+
+.field .item{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #7180ac;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: black;
+    margin: 12px 0;
+}
+
+.field .item::placeholder{
+    color: grey;
+}
+
+.field .error-txt{
+    font-size: 14.5px;
+    color: red;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+form .textarea-field .item{
+    resize: none;
+}
+
+form .textarea-field .error-txt{
+    margin-top: -10px;
+}
+
+form button{
+    padding: 12px 32px;
+    background: #7180ac;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #7180ac;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover{
+    box-shadow: none;
+}
+
+footer {
+    background-color: #7180ac;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

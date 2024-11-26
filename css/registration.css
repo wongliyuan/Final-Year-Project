@@ -1,0 +1,177 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #7180ac;
+    padding: 20px;
+    text-align: center;
+}
+
+.left h1 {
+    font-family: 'Lora', serif;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container {
+    /*width: 80%;
+    max-width: fit-content;*/
+    padding: 40px;
+    background-color: white;
+}
+
+.form {
+    width: 70%;
+    height: 100%;
+}
+
+.form h2 {
+    font-family: 'Lora', serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form p{
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.box {
+    width:100%;
+    height: 50px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #7180ac;
+    font-size: 0.9rem;
+    margin-top: -20px;
+}
+
+.form a:hover {
+    color: #ead7c3;
+}
+
+.signUpButton, .googleSignIn {
+    width: 100%;
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Set a fixed height for both buttons */
+    margin-top: 20px; /* Ensure consistent spacing */
+    margin-bottom: 20px;
+}
+
+.signUpButton {
+    background-color: black;
+    color: #7180ac;
+    margin-top: 20px; /* Slightly more space above the sign-in button */
+}
+
+.signUpButton:hover {
+    background-color: #7180ac;
+    color: black;
+}
+
+.googleSignIn {
+    background-color: #d9d9d9;
+    color: black;
+}
+
+.googleSignIn:hover {
+    background-color: #7180ac;
+    color: black;
+}
+
+.googleSignIn img {
+    margin-right: 10px;
+}
+
+.login {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #7180ac;
+    font-size: 1rem;
+    display: inline;
+}
+
+.login a:hover {
+    color: #ead7c3;
+}
+
+.alert {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}

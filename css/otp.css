@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  font-family: 'Lora', Roboto;
+}
+
+.navbar {
+  border-bottom: 1px solid white;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card {
+  border: 5px solid #ead7c3;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-muted {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #ead7c3;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #c19a6b;
+}
+
+footer {
+  background-color: #ead7c3;
+  padding: 20px 0;
+  border-top: 1px solid #e6e6e6;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
